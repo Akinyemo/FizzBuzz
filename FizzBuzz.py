@@ -3,11 +3,8 @@
 def TestFizzBuzz(x):
     count = 1 
     for number in range(100):
-        if count % 3 == 0 and count % 5 == 0:
-            print('FizzBuzz')
-            if count == x:
-                return 'FizzBuzz'
-        elif count % 3 == 0:
+        
+        if count % 3 == 0:
             print('Fizz')
             if count == x:
                 return 'Fizz'
