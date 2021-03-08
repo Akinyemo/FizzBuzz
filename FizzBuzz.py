@@ -7,5 +7,9 @@ def TestFizzBuzz(x):
             print('Fizz')
             if count == x:
                 return 'Fizz'
+        elif count % 5 == 0:
+            print('Buzz')
+            if count == x:
+                return 'Buzz'
         count +=1
     return '0'
